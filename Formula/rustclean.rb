@@ -2,7 +2,6 @@
 class Rustclean < Formula
   desc "Terminal disk usage analyzer and cleaner"
   homepage "https://github.com/hzrbasaran/rustClean"
-  version "0.1.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do

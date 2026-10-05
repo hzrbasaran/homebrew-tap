@@ -6,19 +6,19 @@ class Rustclean < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/hzrbasaran/rustClean/releases/download/v0.4.0/rustclean-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "550cc1513787078b37be20126946609b248438e8ddc96ca814b2a83f67886397"
+      url "https://github.com/hzrbasaran/rustClean/releases/download/v0.5.0/rustclean-v0.5.0-aarch64-apple-darwin.tar.gz"
+      sha256 "58a9fbe00bd9335e1066267bc8f2545651e95ddc72f5d1c38893d24d2f8392a7"
     end
     on_intel do
-      url "https://github.com/hzrbasaran/rustClean/releases/download/v0.4.0/rustclean-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a715f71020c2b293fd615e66310827cf799139bd95f861bf873b0bed922ee61e"
+      url "https://github.com/hzrbasaran/rustClean/releases/download/v0.5.0/rustclean-v0.5.0-x86_64-apple-darwin.tar.gz"
+      sha256 "04d17c244c146e2ce26eb99ad98b098e91ba3aa82f67558c2d833250237c1494"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/hzrbasaran/rustClean/releases/download/v0.4.0/rustclean-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ae1bf037c351ae7c339398276033324e8d3249eb89b355ac87c5287f45989ded"
+      url "https://github.com/hzrbasaran/rustClean/releases/download/v0.5.0/rustclean-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "23657abf7fb3187052dae711feada6599a96dcaa09f358d921f42292b1df5327"
     end
   end
 
